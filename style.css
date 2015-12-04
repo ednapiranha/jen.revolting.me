@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  background-image: url(images/slack.jpg);
+  font-family: Muli, sans-serif;
+  font-weight: 200;
+}
+
+.hands {
+  background-image: url(images/prayer-hands.png);
+  background-repeat: no-repeat;
+  height: 461px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+  width: 30%;
+}
+
+h3 {
+  font-size: 5vw;
+  margin: 0;
+  font-weight: 200;
+  background-color: rgba(255, 255, 255, 0.75);
+  display: inline-block;
+  clear: both;
+  float: left;
+}
+
+section {
+  width: 50vw;
+}
+
+section, ul {
+  float: left;
+  clear: both;
+}
+
+section li a {
+  line-height: 1.2rem;
+}
+
+section li {
+  margin-bottom: 8px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 0 0 17px;
+  padding: 10px;
+  background-color: rgba(1, 1, 1, 0.7);
+  display: inline-block;
+}
+
+a, span {
+  color: #ddd;
+  text-decoration: none;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  display: block;
+  padding: 2px 10px;
+}
+
+a:hover {
+  color: #111;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+s {
+  color: #02b5db;
+}
+
+span {
+  color: #888;
+}
