@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-weight: 200;
+  background-color: #f1f1f1;
+}
+
+h1, h2 {
+  background-color: #111;
+  color: #eee;
+  line-height: 1.5rem;
+}
+
+h1, h2, h3 {
+  font-size: 1.6rem;
+  margin: 0;
+  font-weight: 200;
+  display: inline-block;
+  clear: both;
+  float: left;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.4rem;
+  padding-bottom: 0;
+  padding-top: 20px;
+}
+
+strong {
+  font-weight: 800;
+}
+
+section {
+  width: 75vw;
+  max-width: 800px;
+  min-width: 200px;
+  float: left;
+  clear: both;
+  padding: 0 20px;
+}
+
+p {
+  float: left;
+  clear: both;
+  padding-left: 10px;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+img {
+  width: 50%;
+}
