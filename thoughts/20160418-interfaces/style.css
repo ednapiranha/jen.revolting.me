@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-weight: 200;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+#wrapper {
+  max-width: 800px;
+  min-width: 300px;
+}
+
+h1, h2 {
+  font-weight: 200;
+  margin-top: 30px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
