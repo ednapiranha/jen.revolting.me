@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Muli, sans-serif;
   font-weight: 200;
-  background-color: #f1f1f1;
+  background-color: #fff;
   padding: 20px;
 }
 
@@ -17,7 +17,10 @@ h1, h2 {
 }
 
 p {
-  font-size: 1rem;
-  line-height: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
 }
 
+a {
+  color: #42a4e2;
+}
