@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 20px 20px 0 20px;
+  background-image: url(https://media.giphy.com/media/QLCcrsCAPiQzm/200.gif);
+  background-size: 25.1vw 25.1vh;
+  font-family: Muli;
+}
+
+a {
+  color: #fff;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+iframe {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25vw;
+  height: 25vh;
+  z-index: 3;
+}
+
+.title {
+  font-family: 'Shadows Into Light Two', cursive;
+  letter-spacing: 1px;
+  color: #00dfbd;
+}
+
+img {
+  width: 25vw;
+  height: 25vh;
+  position: absolute;
+  z-index: 1;
+  user-select: none;
+}
+
+.mountains {
+  right: 24.9vw;
+  top: 25.1vh;
+}
+
+.cactus {
+  right: 50vw;
+  top: 50.1vh;
+}
+
+.mars {
+  right: 75.1vw;
+  top: 75vh;
+}
+
+canvas {
+  background-color: rgba(1, 1, 1, 0.1);
+  position: absolute;
+  top: 25vh;
+  width: 100vw;
+  height: 75vh;
+  left: 0;
+  z-index: 2;
+  border-top: 2px solid #f0f;
+  border-bottom: 2px solid #f0f;
+}

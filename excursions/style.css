@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(55deg, #e6226c, #64eede);
+  background-size: 100% 50%;
+  font-family: 'Bungee Hairline';
+  padding: 10px 20px;
+}
+
+h1 a {
+  background-color: #ff676b;
+  color: #eb85cf;
+  -webkit-transition: 1s color;
+  transition: 1s color;
+  text-decoration: none;
+  -webkit-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+}
+
+h1 a:hover {
+  color: #4fce89;
+  -webkit-transition: 1s color;
+  transition: 1s color;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+li a:hover {
+  color: #24bee3;
+  text-shadow: #f63f2f 10px 0 0;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
