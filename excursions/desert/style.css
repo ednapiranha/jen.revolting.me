@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 20px 20px 0 20px;
   background-image: url(https://media.giphy.com/media/QLCcrsCAPiQzm/200.gif);
-  background-size: 25.1vw 25.1vh;
+  background-size: 25vw 25vh;
   font-family: Muli;
 }
 
@@ -39,17 +39,17 @@ img {
 }
 
 .mountains {
-  right: 24.9vw;
-  top: 25.1vh;
+  right: 25vw;
+  top: 24.95vh;
 }
 
 .cactus {
   right: 50vw;
-  top: 50.1vh;
+  top: 49.8vh;
 }
 
 .mars {
-  right: 75.1vw;
+  right: 75vw;
   top: 75vh;
 }
 
@@ -61,6 +61,4 @@ canvas {
   height: 75vh;
   left: 0;
   z-index: 2;
-  border-top: 2px solid #f0f;
-  border-bottom: 2px solid #f0f;
 }

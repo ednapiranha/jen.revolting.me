@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 10px 20px 0 20px;
+  background-image: url(back.gif);
+  background-size: 100vw 100vh;
+  font-family: Muli;
+}
+
+body.pause {
+  -webkit-transition: 0.1s background-size;
+  transition: 0.1s background-size;
+}
+
+h1.on a {
+  color: #338ffe;
+  -webkit-transition: 1s color;
+  transition: 1s color;
+}
+
+h1.on {
+  color: #34bbfe;
+}
+
+h1 a {
+  text-decoration: none;
+  -webkit-transition: 1s color;
+  transition: 1s color;
+}
+
+h1 a:hover {
+  color: #ff2966;
+  -webkit-transition: 1s color;
+  transition: 1s color;
+}
+
+h1, h1 a {
+  color: transparent;
+}
+
+h1 {
+  margin: 0;
+  -webkit-transition: 1s color;
+  transition: 1s color;
+}

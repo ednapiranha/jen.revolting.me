@@ -10,17 +10,17 @@
   var clientX;
   var clientY;
   var currColor = 'rgba(54, 200, 128, 0.7)';
-  var currComposition = 'saturation';
+  var currComposition = 'screen';
   var color = '#5677e8';
   var brushWidth = 10;
   ctx.lineWidth = 10;
 
-  function draw() {
+  function draw(cX, cY, pX, pY) {
     ctx.lineCap = 'round';
     ctx.globalCompositeOperation = currComposition;
     ctx.beginPath();
-    ctx.moveTo(prevX, prevY);
-    ctx.lineTo(currX, currY);
+    ctx.moveTo(pX, pY);
+    ctx.lineTo(cX, cY);
     ctx.strokeStyle = color;
     ctx.lineWidth = brushWidth;
     ctx.stroke();
@@ -60,7 +60,6 @@
           prevY = currY;
           currX = clientX;
           currY = clientY;
-
           flag = true;
           drawing = true;
 
@@ -82,7 +81,7 @@
             prevY = currY;
             currX = clientX;
             currY = clientY;
-            draw();
+            draw(currX, currY, prevX, prevY);
           }
           break;
       }
@@ -111,6 +110,28 @@
   document.body.appendChild(canvas);
 
   setDraw();
+
+  var cX = 100;
+  var cY = 200;
+  var pX = 100;
+  var pY = 200;
+
+  function drawIntro(i) {
+    setTimeout(function () {
+      draw(cX, cY, pX, pY);
+      ctx.beginPath();
+      ctx.fillStyle = color;
+      ctx.fillRect(cX + (i * 0.3), cY + (i * 0.3), 10, 10);
+      ctx.closePath();
+    }, 1 * i);
+  }
+
+  for (var i = 0; i < 1350; i++) {
+    drawIntro(i * 1);
+    if (i > 150) {
+      drawIntro(i * -1)
+    }
+  }
 
   window.onresize = function () {
     canvas.width = window.innerWidth;
