@@ -111,28 +111,6 @@
 
   setDraw();
 
-  var cX = 100;
-  var cY = 200;
-  var pX = 100;
-  var pY = 200;
-
-  function drawIntro(i) {
-    setTimeout(function () {
-      draw(cX, cY, pX, pY);
-      ctx.beginPath();
-      ctx.fillStyle = color;
-      ctx.fillRect(cX + (i * 0.3), cY + (i * 0.3), 10, 10);
-      ctx.closePath();
-    }, 1 * i);
-  }
-
-  for (var i = 0; i < 1350; i++) {
-    drawIntro(i * 1);
-    if (i > 150) {
-      drawIntro(i * -1)
-    }
-  }
-
   window.onresize = function () {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
