@@ -1,8 +1,27 @@
 body {
-  background: linear-gradient(55deg, #e6226c, #64eede);
-  background-size: 100% 50%;
+  background: linear-gradient(0deg, #f0f, #f00);
+  background-size: 10% 30%;
   font-family: 'Bungee Hairline';
   padding: 10px 20px;
+  margin: 0;
+  -webkit-transition: 1s background-size;
+  transition: 1s background-size;
+}
+
+body.on {
+  background-size: 100% 100%;
+  -webkit-transition: 1s background-size;
+  transition: 1s background-size;
+}
+
+.wrapper {
+  background: linear-gradient(0deg, rgba(1, 1, 1, 0), rgba(31, 209, 170, 0.8));
+  background-attachment: fixed;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
 
 ul {
@@ -39,6 +58,10 @@ h1 a {
   margin: 0 10px;
 }
 
+h1 {
+  color: #f0ffaa;
+}
+
 h1 a:hover {
   color: #4fce89;
   -webkit-transition: 1s color;
@@ -47,10 +70,22 @@ h1 a:hover {
 }
 
 img {
-  border-radius: 100px;
+  border-radius: 100%;
+  float: right;
+  width: 40vw;
+  margin: 10px;
 }
 
 iframe {
   position: absolute;
   left: -9999px;
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 100vw;
+    height: 20vh;
+    border-radius: 0;
+    margin: 0;
+  }
 }
