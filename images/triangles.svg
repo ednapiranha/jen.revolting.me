@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="441px" height="373px" viewBox="0 0 441 373" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F8FF4D" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="126.102106 14 12 355 394 257.084681"></polygon>
+        <polygon id="path-3" points="157.102106 21 43 362 425 264.084681"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Path">
+            <use fill-opacity="0.569999993" fill="#F900FF" xlink:href="#path-2"></use>
+            <use stroke="#19DEBA" stroke-width="15" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+        </g>
+        <g id="Path">
+            <use fill-opacity="0.569999993" fill="#F900FF" xlink:href="#path-3"></use>
+            <use stroke="#19DEBA" stroke-width="15" fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+        </g>
+    </g>
+</svg>
