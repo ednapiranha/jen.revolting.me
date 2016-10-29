@@ -31,8 +31,7 @@ section {
 }
 
 section, ul {
-  float: left;
-  clear: both;
+  width: 100vw;
 }
 
 section li a {
@@ -83,12 +82,8 @@ s {
     background-size: 100%;
   }
 
-  h3 {
-    font-size: 1.3rem;
-  }
-
-  ul {
-    padding: 5px;
-    min-width: 190px;
+  li {
+    width: 100vw;
+    display: block;
   }
 }
